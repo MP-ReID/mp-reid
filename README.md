@@ -1,5 +1,5 @@
 ## Hi there 👋
-Please fill in the <a href="https://drive.google.com/file/d/1hImLEMcsBB2kNV4McGyksVAumLjZQoUU/view?usp=sharing">agreement</a> to get the CCGait Dataset.
+Please fill in the <a href="https://drive.google.com/file/d/1hImLEMcsBB2kNV4McGyksVAumLjZQoUU/view?usp=sharing">agreement</a> to get the MP-ReID Dataset.
 <!--
 **MP-ReID/mp-reid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
