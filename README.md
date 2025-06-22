@@ -18,12 +18,14 @@ Please fill in the <a href="https://drive.google.com/file/d/1hImLEMcsBB2kNV4McGy
 
 Cite as below if you find this repository is helpful to your project:
 
+```
 @article{ha2025multi,
             title={Multi-modal Multi-platform Person Re-Identification: Benchmark and Method},
              author={Ha, Ruiyang and Jiang, Songyi and Li, Bin and Pan, Bikang and Zhu, Yihang and Zhang, Junjie and Zhu, Xiatian and Gong, Shaogang and Wang, Jingya},
              journal={arXiv preprint arXiv:2503.17096},
             year={2025}
           }
+```
 <!--
 **MP-ReID/mp-reid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
