@@ -38,6 +38,25 @@ MP-ReID/
 The MP-ReID dataset is captured by 14 cameras, with each camera corresponding to a folder. Cameras 01-06 are ground-based RGB cameras, among which 01 and 03 are set up indoors, and the rest are set up outdoors. Cameras 07-12 are ground-based IR cameras, with 07 and 09 set up indoors, and the rest are set up outdoors. Camera 13 is a drone-based RGB camera, while camera 14 is a drone-based thermal camera.
 ## Data Split
 Following the proposed experimental benchmarks, experiments are categorized into six distinct types. For each experiment type, separate training and testing sets have been designated. Pre-partitioned .txt files and a partitioning script are provided, allowing for custom re-partitioning if needed. You can find specific experimental divisions are recorded in the `split` folder. For example, exp_cctv_ir_cctv_rgb represents the experiment from infrared images collected by CCTV to the RGB images collected by CCTV. And you can find the script for spliting in `scripts` folder.
+You can find the spliting files like the following structure.
+split/
+├── exp_cctv_ir_cctv_rgb/
+│ ├── available_id.txt
+│ ├── test_id.txt
+│ ├── train_id.txt
+│ ├── val_id.txt
+├── exp_cctv_ir_uav_ir
+│ ├── available_id.txt
+│ ├── test_id.txt
+│ ├── train_id.txt
+│ ├── val_id.txt
+...
+├── exp_uav_ir_uav_rgb
+│ ├── available_id.txt
+│ ├── test_id.txt
+│ ├── train_id.txt
+│ ├── val_id.txt
+```
 
 ## Dataset download
 Please fill in the <a href="https://drive.google.com/file/d/1hImLEMcsBB2kNV4McGyksVAumLjZQoUU/view?usp=sharing">agreement</a> and send it to vihumanlab@gmail.com to get the MP-ReID Dataset.
