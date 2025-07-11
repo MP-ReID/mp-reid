@@ -39,6 +39,7 @@ The MP-ReID dataset is captured by 14 cameras, with each camera corresponding to
 ## Data Split
 Following the proposed experimental benchmarks, experiments are categorized into six distinct types. For each experiment type, separate training and testing sets have been designated. Pre-partitioned .txt files and a partitioning script are provided, allowing for custom re-partitioning if needed. You can find specific experimental divisions are recorded in the `split` folder. For example, exp_cctv_ir_cctv_rgb represents the experiment from infrared images collected by CCTV to the RGB images collected by CCTV. And you can find the script for spliting in `scripts` folder.
 You can find the spliting files like the following structure.
+```
 split/
 ├── exp_cctv_ir_cctv_rgb/
 │ ├── available_id.txt
