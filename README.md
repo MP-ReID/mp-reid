@@ -13,8 +13,8 @@ Please fill in the <a href="https://drive.google.com/file/d/1hImLEMcsBB2kNV4McGy
 
 ## TODO List
 
-- [x] Release the training code.
-
+- [√] Release the training code.
+- [x] Upgrade training readme
 ## Citation
 
 Cite as below if you find this repository is helpful to your project:
