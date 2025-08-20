@@ -11,10 +11,33 @@ You can see more details in [dataset](dataset.md) page.
 Please fill in the <a href="https://drive.google.com/file/d/1hImLEMcsBB2kNV4McGyksVAumLjZQoUU/view?usp=sharing">agreement</a> and send it to vihumanlab@gmail.com to get the MP-ReID Dataset.
 
 
-## TODO List
+### Installation
 
-- [√] Release the training code.
-- [x] Upgrade training readme
+```
+conda create -n UniPrompt python=3.8
+conda activate UniPrompt
+conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+pip install -r requirements.txt
+```
+### Training
+
+For example, if you want to train the baseline in cctv_ir_cctv_rgb set, you need to modify the bottom of configs/ours/cctv_ir_cctv_rgb.yml to
+
+```
+DATASETS:
+   NAMES: ('mmmp')
+   ROOT_DIR: ('your_dataset_dir')
+   EXP_SETTING: ('exp_cctv_ir_cctv_rgb')
+OUTPUT_DIR: 'your_output_dir'
+```
+
+then run 
+
+```
+CUDA_VISIBLE_DEVICES=0 python train.py --config_file configs/ours/cctv_ir_cctv_rgb.yml
+```
+
+We are also providing additional files that might be used during the training phase. Please refer to the link in the [Dataset ](dataset.md) section for more details. 
 ## Citation
 
 Cite as below if you find this repository is helpful to your project:
